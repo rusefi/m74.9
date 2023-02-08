@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "MCU_AT_AT32")(type "KiCad")(uri "${KIPRJMOD}/lib/MCU_AT_AT32.kicad_sym")(options "")(descr ""))
+  (lib (name "SM8S22A")(type "KiCad")(uri "${KIPRJMOD}/lib/SM8S22A.kicad_sym")(options "")(descr ""))
+  (lib (name "SS36B")(type "KiCad")(uri "${KIPRJMOD}/lib/SS36B.kicad_sym")(options "")(descr ""))
+  (lib (name "STD20NF06")(type "KiCad")(uri "${KIPRJMOD}/lib/STD20NF06.kicad_sym")(options "")(descr ""))
+  (lib (name "502225-0801")(type "KiCad")(uri "C:/Users/LENOVO/Desktop/projects/GitHub/m74.9/kicad6-libraries/502225-0801.kicad_sym")(options "")(descr ""))
+  (lib (name "L9779WD-SPI")(type "KiCad")(uri "C:/Users/LENOVO/Desktop/projects/GitHub/m74.9/kicad6-libraries/L9779WD-SPI.kicad_sym")(options "")(descr ""))
+)
