@@ -5,4 +5,7 @@
   (lib (name "STD20NF06")(type "KiCad")(uri "${KIPRJMOD}/lib/STD20NF06.kicad_sym")(options "")(descr ""))
   (lib (name "502225-0801")(type "KiCad")(uri "C:/Users/LENOVO/Desktop/projects/GitHub/m74.9/kicad6-libraries/502225-0801.kicad_sym")(options "")(descr ""))
   (lib (name "L9779WD-SPI")(type "KiCad")(uri "C:/Users/LENOVO/Desktop/projects/GitHub/m74.9/kicad6-libraries/L9779WD-SPI.kicad_sym")(options "")(descr ""))
+  (lib (name "IGBT")(type "KiCad")(uri "${KIPRJMOD}/lib/IGBT.kicad_sym")(options "")(descr ""))
+  (lib (name "DC_Mx")(type "KiCad")(uri "${KIPRJMOD}/lib/DC_Mx.kicad_sym")(options "")(descr ""))
+  (lib (name "DAP_conn")(type "KiCad")(uri "${KIPRJMOD}/lib/DAP_conn.kicad_sym")(options "")(descr ""))
 )
