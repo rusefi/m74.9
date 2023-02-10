@@ -8,4 +8,6 @@
   (lib (name "IGBT")(type "KiCad")(uri "${KIPRJMOD}/lib/IGBT.kicad_sym")(options "")(descr ""))
   (lib (name "DC_Mx")(type "KiCad")(uri "${KIPRJMOD}/lib/DC_Mx.kicad_sym")(options "")(descr ""))
   (lib (name "DAP_conn")(type "KiCad")(uri "${KIPRJMOD}/lib/DAP_conn.kicad_sym")(options "")(descr ""))
+  (lib (name "TLE9201")(type "KiCad")(uri "${KIPRJMOD}/lib/TLE9201.kicad_sym")(options "")(descr ""))
+  (lib (name "MUN5311DW1")(type "KiCad")(uri "${KIPRJMOD}/lib/MUN5311DW1.kicad_sym")(options "")(descr ""))
 )
