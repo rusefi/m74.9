@@ -69,20 +69,7 @@ Bootloader uses only CAN, and Core also has SPI interface (to interact with L977
 - 0x85 Control DTC settings
 
 These services availiable in both modes, but some of them cannot work because needed internal callbacks defined dynamically.
-I have no ideas, how memory read works (there is NO suitable service).
-
-To write a new firmware, probably (!) next sequence should be used:
-
-- switch diag session 0x10
-- enter security code 0x27 (for Core functions)
-- reboot ECU to bootloader (0x11)
-- again switch diag session 0x10
-- enter security code 0x27 (algoritm is slightly differs from previous one)
-- request download 0x34 to the ECU
-- transfer data 0x36
-- exit transfer mode 0x37
-- run routine to write flash itself 0x31
-- repeat download for a next memory block
+Firmware upload/download instructions are in separate document, [./FirmwareUpdate.md]
 
 
 ### Startup sequence
