@@ -27,7 +27,7 @@ used to write eeprom and to read back flash/eeprom
 
 - start systemSupplierSpecific session: `10 60`, ECU didnt switched to boot(!)
 - enter security (see below)
-- sequentally run WriteMemoryByAddress to upload custom binary at 20019800..2001B148: `3D 24 <addr 4 bytes> <len 2 bytes> <data, up to 512 bytes>`
+- sequentially run WriteMemoryByAddress to upload custom binary at 20019800..2001B148: `3D 24 <addr 4 bytes> <len 2 bytes> <data, up to 512 bytes>`
 - run Routine F000 with address 20019800: `31 01 F0 00 20 01 98 00`
 - run SecurityAccess (algorithm not known)
 - now you able to run RoutineControl, ReadMemoryByAddress, WriteMemoryByAddress with some weird (crypted?) parameters. Transferred data also looks crypted.
