@@ -8,7 +8,7 @@ There is two ways to write a new firmware:
 
 used for uploading main firmware
 
-- start programming session: `10 02`, it should autmatically restart ECU to boot mode
+- start programming session: `10 02`, it should automatically restart ECU to boot mode
 - enter security (see below)
 - run RequestDownload with address 08001000 and length 000FF000: `34 00 44 08 00 10 00 00 0F F0 00`
 - sequentally run TransferData: `36 00 ...` (up to 2K bytes data per request)
