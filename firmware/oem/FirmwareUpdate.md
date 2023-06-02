@@ -11,7 +11,7 @@ used for uploading main firmware
 - start programming session: `10 02`, it should automatically restart ECU to boot mode
 - enter security (see below)
 - run RequestDownload with address 08001000 and length 000FF000: `34 00 44 08 00 10 00 00 0F F0 00`
-- sequentally run TransferData: `36 00 ...` (up to 2K bytes data per request)
+- sequentially run TransferData: `36 00 ...` (up to 2K bytes data per request)
 - run RequestTransferExit: `37`
 - run Routine FF01 with address 08001000 length 000FF000 and checksum CC9E: `31 01 FF 01 44 08 00 10 00 00 0F F0 00 CC 9E`
 - run Routine FF00 with address 08200000 length 00001000: `31 01 FF 00 44 08 20 00 00 00 00 10 00`
