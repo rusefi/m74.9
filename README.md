@@ -4,8 +4,8 @@ Reverse engineering of m74.9 ECU using KiCad EDA
 
 See also https://github.com/rusefi/S105
 
-* 8450086873 
-* 8450086874
+* 8450086873 Niva
+* 8450086874 Niva
 * 8450110707 Granta
 * 259.3765 004-01 Gaz
 
