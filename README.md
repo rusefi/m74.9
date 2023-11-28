@@ -2,6 +2,8 @@
 
 Reverse engineering of m74.9 ECU using KiCad EDA
 
+[Interactive Pinout](https://rusefi.com/docs/pinouts/m74.9/)
+
 See also https://github.com/rusefi/S105
 
 * 8450086873 Niva
