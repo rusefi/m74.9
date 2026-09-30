@@ -8,7 +8,7 @@ See also https://github.com/rusefi/S105
 
 * 8450086873 Niva
 * 8450086874 Niva
-* 8450110707 Granta (waster spark)
+* 8450110707 Granta (wasted spark)
 * 8450043732 Vesta NG (individual spark) 
 * 259.3765 004-01 Gaz
   
